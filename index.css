@@ -1,0 +1,135 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    /* max-width: 600px; */
+    /* padding: 20px; */
+    /* background: rgba(0, 0, 0, 0.6); */
+    border-radius: 10px;
+    height: 100%;
+    margin-top: 50px;
+    min-width: 1000px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 20px; */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: "Michroma";
+}
+.main {
+    margin-top: 80px;
+    /* width: 1400px; */
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 8px;
+    gap: 15px;
+  }
+  .back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: lighter;
+    font-family: "Montserrat Alternates" ;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: "Montserrat Alternates" ;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-family: "Michroma";
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    font-family: "Michroma";
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background: #000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 200px;
+}
+
+button:hover {
+    background: #333;
+}
+
+
+footer {
+    margin-top: 20px;
+    /* font-size: 0.9em; */
+    font-weight: 500;
+    font-family: "Montserrat Alternates"
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles for spacing and alignment */
+.spacer {
+    height: 20px;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+}
